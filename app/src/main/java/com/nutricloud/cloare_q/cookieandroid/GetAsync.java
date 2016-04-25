@@ -13,7 +13,7 @@ import java.util.HashMap;
 public class GetAsync  extends AsyncTask<String, String, JSONObject> {
 
     JSONParser jsonParser = new JSONParser();
-    private static final String LOGIN_URL = "http://patient1:patient1@nutricloud.eu/NutriCloud/web/app_dev.php/patient/info";
+    private static final String LOGIN_URL = "http://nutricloud.eu/NutriCloud/web/app_dev.php/patient/info";
 
 
     @Override

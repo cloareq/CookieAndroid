@@ -48,7 +48,6 @@ public class JSONParser {
         }
 
         if (method.equals("POST")) {
-            // request method is POST
             try {
                 urlObj = new URL(url);
 
